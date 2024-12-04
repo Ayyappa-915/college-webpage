@@ -1,0 +1,105 @@
+header
+{
+    text-align:center;
+    color:white;
+    font-size: 1.4cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: double;border-width: 0.5cm;border-top: 0cm; border-left: 0cm; border-right: 0cm; 
+ }
+ .heading
+ {
+   border-style: double;border-width: 0.2cm;border-color: black;border-top: 0cm;border-left: 0cm;border-right: 0cm;
+   max-width: fit-content;
+   font-weight:bold;font-size: 0.8cm;
+   margin-left: 0.5cm;
+ }
+ footer
+{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.4cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: double;border-width: 0.5cm;border-bottom: 0cm; border-left: 0cm; border-right: 0cm;
+ }
+ marquee
+ {
+    color: black;
+    font-size: 1cm;font-style: inherit;font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    border-style: solid;border-left: 0cm;border-right: 0cm;border-width: 0.1cm;
+ }
+ img 
+ {
+  max-width: 100%;
+  height: auto;
+ }
+ body
+ {
+    background-color: chocolate;
+    border-style:solid;border-width: 0.3cm;margin-top: 0.5cm;margin-bottom: 0.5cm;margin-left: 0.5cm;margin-right: 0.5cm;
+ }
+ .b1,.b2,.b3,.b4,.b5,.b6,.b7
+ {
+   margin-left: 1cm;
+ }
+ .mybutton
+ {
+   color:black;
+   margin: 0.7cm;
+   text-align:center;
+   font-size: smaller;font-weight: bold;
+   border-style:solid;border-radius: 3cm;
+   max-width: fit-content;
+   background-color: whitesmoke;
+   padding-left: 0.3cm;padding-right: 0.3cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
+ }
+ button:hover
+ {
+    background-color: black;
+    color: white;
+ }
+ .button-container
+ {
+    font-size: medium;
+    margin-left: 1cm;
+    display:flex;
+ }
+.sh1,.sh2,.sh3,.sh4,.sh5,.sh6,.sh7
+{   
+   color: black;
+   font-size: x-large;font-weight: bolder;
+   margin-left: 1cm;
+   border-style: double;border-top: 0cm;border-left: 0cm;border-right: 0cm;border-color:black;border-width: 0.2cm;
+   max-width: fit-content;
+}
+.sb1,.sb2,.sb3,.sb4,.sb5,.sb6,.sb7
+{
+   margin-left: 3cm;
+   border-radius: 5cm;
+}
+.mb 
+{
+   font-size: medium;font-weight: bold;
+   padding-right: 0.3cm;padding-left: 0.3cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
+   border-style: solid;
+   border-radius: 0.3cm;
+}
+b
+{
+   color: black;
+   font-size: larger;
+}
+sub
+{
+   margin-left: 3cm;
+   font-size: 0.5cm;
+}
+ p
+ {
+    font-size: larger;
+    color: white;  
+    margin-left: 1cm;margin-right: 1cm;
+ }
+ pre
+{
+    color: white; 
+    padding-left: 0.8cm; padding-right: 0.8cm;
+    font-size: larger;
+}
