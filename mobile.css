@@ -1,9 +1,10 @@
 header
 {
     text-align:center;
-    color: black;
+    color: white;
     font-size: 0.25cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style: double;border-width: 0.1cm;border-top: 0cm; border-left: 0cm; border-right: 0cm; 
+    background-color: green;
  }
  .heading
  {
@@ -11,6 +12,8 @@ header
    max-width: fit-content;
    font-weight:bold;font-size: 0.25cm;
    margin-left: 0.5cm;
+   background-color: white;
+   color: green;
  }
  footer
 {
@@ -22,6 +25,7 @@ header
  marquee
  {
     color: black;
+    background-color: yellow;
     font-size: 0.3cm;font-style: inherit;font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
     border-style: solid; border-left: 0cm;border-right: 0cm;border-width: 0.1cm;
  }
@@ -37,28 +41,28 @@ header
     width: 100%;
     padding: 0;
     margin: 0;
+    
  }
  .mybutton
  {
-   color:black;
+   color:white;
+   background-color: green;
    margin: 0.1cm;
    text-align:center;
-   font-size: 0.13cm;font-weight: bold;
-   border-style:solid;border-radius: 0.1cm;
+   font-size: 0.2cm;font-weight: bold;
+   border-style:solid;border-radius: 0.3cm;
    max-width: fit-content;
-   background-color: whitesmoke;
-   padding-left: 0.05cm;padding-right: 0.05cm;padding-top: 0.06cm;padding-bottom: 0.06cm;
+   padding-left: 0.5cm;padding-right: 0.5cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
  }
  .b1,.b2,.b3,.b4,.b5,.b6,.b7
  {
    color:black;
-   font-size: 0.13cm;
-
+   font-size: 0.2cm;
  }
  button:hover
  {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: green;
     box-shadow:azure;
  }
  .button-container
@@ -71,14 +75,14 @@ header
 {   
    font-weight: bolder;
    font-size: 0.2cm;
-   color: black;
+   color: green;
    margin-left: 0.5cm;
    max-width: fit-content;
    border-top: 0cm;border-left: 0cm;border-right: 0cm;border-style: double;
 }
 .sb1,.sb2,.sb3,.sb4,.sb5,.sb6,.sb7
 {
-   margin-left: 1cm;
+   margin-left: 2cm;
    padding-left: 0.2cm;
    padding-right: 0.2cm;
    padding-top: 0.1cm;
@@ -87,9 +91,11 @@ header
 .mb 
 {
    font-size: 0.2cm;font-weight: bold;
-   padding-right: 0.15cm; padding-left: 0.15cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
+   padding-right: 0.3cm; padding-left: 0.3cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
    border-style: solid;
    border-radius: 0.2cm;
+   color: white;
+   background-color: green;
 }
 b
 {
@@ -97,8 +103,9 @@ b
 }
 sub
 {
-   margin-left: 2cm;
-   font-size: 0.2cm;
+   margin-left: 3.5cm;
+   font-size: xx-small;
+   color:darkblue;
 }
  p
  {
@@ -109,5 +116,5 @@ sub
  pre
 {
     color:black;  padding-left: 0.8cm; padding-right: 0.8cm;
-    font-size: 0.1cm;
+    font-size: 0.15cm;
 }
