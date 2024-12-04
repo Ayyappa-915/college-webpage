@@ -2,7 +2,7 @@ header
 {
     text-align:center;
     color: black;
-    font-size: 0.3cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.4cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style: double;border-width: 0.1cm;border-top: 0cm; border-left: 0cm; border-right: 0cm; 
  }
  .heading
@@ -16,18 +16,18 @@ header
 {
     text-align: center;
     color: black;
-    font-size: 0.3cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.5cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style: double;border-width: 0.1cm;border-bottom: 0cm; border-left: 0cm; border-right: 0cm;
  }
  marquee
  {
     color: black;
-    font-size: 0.5cm;font-style: inherit;font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    font-size: 0.3cm;font-style: inherit;font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
     border-style: solid; border-left: 0cm;border-right: 0cm;border-width: 0.1cm;
  }
  img 
  {
-  max-width:fit-content;
+  max-width:min-content;
   height: auto;
  }
  body
@@ -41,16 +41,16 @@ header
    color:black;
    margin: 0.1cm;
    text-align:center;
-   font-size: 0.16cm;font-weight: bold;
+   font-size: 0.6cm;font-weight: bold;
    border-style:solid;border-radius: 0.3cm;
    max-width: fit-content;
    background-color: whitesmoke;
-   padding-left: 0.15cm;padding-right: 0.15cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
+   padding-left: 0.5cm;padding-right: 0.5cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
  }
  .b1,.b2,.b3,.b4,.b5,.b6,.b7
  {
    color:black;
-   font-size: xx-small;
+   font-size: 0.4cm;
 
  }
  button:hover
@@ -76,7 +76,7 @@ header
 }
 .sb1,.sb2,.sb3,.sb4,.sb5,.sb6,.sb7
 {
-   margin-left: 0.5cm;
+   margin-left: 2cm;
 }
 .mb 
 {
@@ -91,7 +91,7 @@ b
 }
 sub
 {
-   margin-left: 1cm;
+   margin-left: 3.5cm;
    font-size: xx-small;
 }
  p
@@ -103,5 +103,5 @@ sub
  pre
 {
     color:black;  padding-left: 0.8cm; padding-right: 0.8cm;
-    font-size: 0.5cm;
+    font-size: 0.1cm;
 }
