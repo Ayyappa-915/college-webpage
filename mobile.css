@@ -1,7 +1,7 @@
 header
 {
     text-align:center;
-    color: whitesmoke;
+    color: black;
     font-size: 0.4cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style: double;border-width: 0.1cm;border-top: 0cm; border-left: 0cm; border-right: 0cm; 
  }
@@ -15,7 +15,7 @@ header
  footer
 {
     text-align: center;
-    color: whitesmoke;
+    color: black;
     font-size: 0.5cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style: double;border-width: 0.1cm;border-bottom: 0cm; border-left: 0cm; border-right: 0cm;
  }
@@ -27,12 +27,12 @@ header
  }
  img 
  {
-  max-width: 100%;
+  max-width:fit-content;
   height: auto;
  }
  body
  {
-    background-color: chocolate;
+    background-color: white;
     border-style:solid;border-width: 0.2cm;
     max-width:fit-content;
  }
@@ -53,14 +53,15 @@ header
  }
  button:hover
  {
-    background-color: rgb(0, 255, 221);
+    background-color: black;
+    color: white;
     box-shadow:azure;
  }
  .button-container
  {
     display: flex;
     margin: 0.2cm;
-    font-size: 0.5cm;
+    font-size: 0.3cm;
  }
 .sh1,.sh2,.sh3,.sh4,.sh5,.sh6,.sh7
 {   
@@ -80,6 +81,7 @@ header
    font-size: 0.2cm;font-weight: bold;
    padding-right: 0.3cm; padding-left: 0.3cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
    border-style: solid;
+   border-radius: 0.2cm;
 }
 b
 {
@@ -88,6 +90,7 @@ b
 sub
 {
    margin-left: 2cm;
+   font-size: smaller;
 }
  p
  {
