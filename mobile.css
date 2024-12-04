@@ -2,21 +2,21 @@ header
 {
     text-align:center;
     color: black;
-    font-size: 0.4cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.3cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style: double;border-width: 0.1cm;border-top: 0cm; border-left: 0cm; border-right: 0cm; 
  }
  .heading
  {
    border-style: solid;border-color: black;border-top: 0cm;border-left: 0cm;border-right: 0cm;
    max-width: fit-content;
-   font-weight:bold;font-size: 0.38cm;
+   font-weight:bold;font-size: 0.25cm;
    margin-left: 0.5cm;
  }
  footer
 {
     text-align: center;
     color: black;
-    font-size: 0.5cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.3cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style: double;border-width: 0.1cm;border-bottom: 0cm; border-left: 0cm; border-right: 0cm;
  }
  marquee
@@ -42,14 +42,16 @@ header
    margin: 0.1cm;
    text-align:center;
    font-size: 0.16cm;font-weight: bold;
-   border-style:solid;border-radius: 3cm;
+   border-style:solid;border-radius: 0.3cm;
    max-width: fit-content;
    background-color: whitesmoke;
-   padding-left: 0.2cm;padding-right: 0.32cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
+   padding-left: 0.15cm;padding-right: 0.15cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
  }
  .b1,.b2,.b3,.b4,.b5,.b6,.b7
  {
    color:black;
+   font-size: xx-small;
+
  }
  button:hover
  {
@@ -66,7 +68,7 @@ header
 .sh1,.sh2,.sh3,.sh4,.sh5,.sh6,.sh7
 {   
    font-weight: bolder;
-   font-size: 0.3cm;
+   font-size: 0.2cm;
    color: black;
    margin-left: 0.5cm;
    max-width: fit-content;
@@ -74,7 +76,7 @@ header
 }
 .sb1,.sb2,.sb3,.sb4,.sb5,.sb6,.sb7
 {
-   margin-left: 1.5cm;
+   margin-left: 0.5cm;
 }
 .mb 
 {
@@ -89,17 +91,17 @@ b
 }
 sub
 {
-   margin-left: 2cm;
-   font-size: smaller;
+   margin-left: 1cm;
+   font-size: xx-small;
 }
  p
  {
     font-size: 0.25cm;
-    color: white;  
+    color: black;
     margin-left: 0.5cm;margin-right: 0.5cm;
  }
  pre
 {
-    color: white;  padding-left: 0.8cm; padding-right: 0.8cm;
-    font-size: 0.15cm;
+    color:black;  padding-left: 0.8cm; padding-right: 0.8cm;
+    font-size: 0.5cm;
 }
