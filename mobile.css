@@ -1,120 +1,155 @@
-header
-{
-    text-align:center;
-    color: white;
-    font-size: 0.25cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-style: double;border-width: 0.1cm;border-top: 0cm; border-left: 0cm; border-right: 0cm; 
-    background-color: green;
- }
- .heading
- {
-   border-style: solid;border-color: black;border-top: 0cm;border-left: 0cm;border-right: 0cm;
-   max-width: fit-content;
-   font-weight:bold;font-size: 0.25cm;
-   margin-left: 0.5cm;
-   background-color: white;
-   color: green;
- }
- footer
-{
-    text-align: center;
-    color: black;
-    font-size: 0.5cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-style: double;border-width: 0.1cm;border-bottom: 0cm; border-left: 0cm; border-right: 0cm;
- }
- marquee
- {
-    color: black;
-    background-color: yellow;
-    font-size: 0.3cm;font-style: inherit;font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
-    border-style: solid; border-left: 0cm;border-right: 0cm;border-width: 0.1cm;
- }
- img 
- {
-  height: auto;
-  width: 95%;
- }
- body
- {
-    background-color: white;
-    border-style:solid;border-width: 0.15cm;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    
- }
- .mybutton
- {
-   color:white;
-   background-color: green;
-   margin: 0.1cm;
-   text-align:center;
-   font-size: 0.2cm;font-weight: bold;
-   border-style:solid;border-radius: 0.3cm;
-   max-width: fit-content;
-   padding-left: 0.5cm;padding-right: 0.5cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
- }
- .b1,.b2,.b3,.b4,.b5,.b6,.b7
- {
-   color:black;
-   font-size: 0.2cm;
- }
- button:hover
- {
-    background-color: white;
-    color: green;
-    box-shadow:azure;
- }
- .button-container
- {
-    display: flex;
-    margin: 0.2cm;
-    font-size: 0.3cm;
- }
-.sh1,.sh2,.sh3,.sh4,.sh5,.sh6,.sh7
-{   
-   font-weight: bolder;
-   font-size: 0.2cm;
-   color: green;
-   margin-left: 0.5cm;
-   max-width: fit-content;
-   border-top: 0cm;border-left: 0cm;border-right: 0cm;border-style: double;
-}
-.sb1,.sb2,.sb3,.sb4,.sb5,.sb6,.sb7
-{
-   margin-left: 2cm;
-   padding-left: 0.2cm;
-   padding-right: 0.2cm;
-   padding-top: 0.1cm;
-   padding-bottom: 0.1cm;
-}
-.mb 
-{
-   font-size: 0.2cm;font-weight: bold;
-   padding-right: 0.3cm; padding-left: 0.3cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
-   border-style: solid;
-   border-radius: 0.2cm;
-   color: white;
-   background-color: green;
-}
-b
-{
-   color: black;
-}
-sub
-{
-   margin-left: 3.5cm;
-   font-size: xx-small;
-   color:darkblue;
-}
- p
- {
-    font-size: 0.25cm;
-    color: black;
-    margin-left: 0.5cm;margin-right: 0.5cm;
- }
- pre
-{
-    color:black;  padding-left: 0.8cm; padding-right: 0.8cm;
-    font-size: 0.15cm;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            CSE(A) BACKBENCHERS.
+        </title>
+        <link rel="icon" href="C:\Users\G BALA AYYAPPA\Pictures\Saved Pictures\backbenchers.jpg" type="JPG file">
+        <link rel="stylesheet" media="screen and (min-width:768px)" href="desktop.css">
+        <link rel="stylesheet" media="screen and (max-width:767px)" href="mobile.css">
+    </head>
+    <header>
+        <br>
+        <div class="mainheading">
+           <center> ST.ANNS COLLEGE OF ENGINEERING AND TECHNOLOGY.</center>
+        </div>
+    </header>
+    <body>
+        <marquee  direction="left" scrollamount="15">
+            *** ST.ANNS COLLEGE OF ENGINEERING AND TECHNOLOGY. ***
+        </marquee>
+        <br>
+        <center><img src="https://sacetchirala.com/Images/header.jpg" width="1390px"></center>
+        <br>
+        <div class="heading">
+            ST.ANNS COLLEGE OF ENGINEERING AND TECHNOLOGY:-
+        </div>
+        <div class="button-container">
+            <a href="https://www.google.com/search?sca_esv=7f485625a55f820f&rlz=1C1GCFM_enIN1090IN1090&sxsrf=ACQVn0_mHwddhcM6Su2dKss6WOLgGqzNIQ:1710493388606&q=st.ann%27s+college+chirala&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjh7MW29PWEAxXnnq8BHesWA-4Q0pQJegQIDRAB">
+                <div class="b1">
+                    <button class="mybutton">IMAGES</button>
+                </div>
+            </a>
+            <a href="https://www.google.com/search?sca_esv=b8d6872986dba9cf&rlz=1C1GCFM_enIN1090IN1090&sxsrf=ACQVn08LAD83NiqARl-mzKnyu4mNkciuvA:1710496020352&q=st.ann%27s+college+chirala&tbm=vid&source=lnms&sa=X&ved=2ahUKEwid67qd_vWEAxWZnq8BHXUdDMYQ0pQJegQIfBAB&biw=1366&bih=641&dpr=1">
+                <div class="b2">
+                    <button class="mybutton">VIDEOS</button>
+                </div> 
+            </a>
+            <a href="https://maps.google.com/maps?sca_esv=7f485625a55f820f&rlz=1C1GCFM_enIN1090IN1090&output=search&q=st.ann%27s+college+chirala&source=lnms&entry=mc&ved=1t:200715&ictx=111">
+                <div class="b3">
+                    <button class="mybutton">MAPS</button>
+                </div>
+            </a>
+            <a href="https://www.google.com/search?sca_esv=b8d6872986dba9cf&rlz=1C1GCFM_enIN1090IN1090&biw=1366&bih=641&sxsrf=ACQVn08LAD83NiqARl-mzKnyu4mNkciuvA:1710496020352&q=st.ann%27s+college+chirala&tbm=nws&source=lnms&sa=X&ved=2ahUKEwid67qd_vWEAxWZnq8BHXUdDMYQ0pQJegQIDhAB">
+                <div class="b4">
+                    <button class="mybutton">NEWS</button>
+                </div>
+            </a>
+            <a href="https://www.google.com/search?sca_esv=b8d6872986dba9cf&rlz=1C1GCFM_enIN1090IN1090&biw=1366&bih=641&sxsrf=ACQVn08LAD83NiqARl-mzKnyu4mNkciuvA:1710496020352&q=St+Ann%27s+College+Chirala+staff+list&uds=AMwkrPvJyEpYMKNaNudkCz00YYfNRmqIaeZ2yz3TMWiJxvfpSsLMpgDzHW0nXFN1EhngAXPvkJrsq1WSdrn3ji6L1WOvq4yq0B-gtDRL37ts0bborZrLrXFJwRS6wDQK2dN5uzv5-qvjWNRp-xitOow7EPywbxtSnw&sa=X&ved=2ahUKEwid67qd_vWEAxWZnq8BHXUdDMYQxKsJegQIfxAB&ictx=0">
+                <div class="b5">
+                    <button class="mybutton">STAFF LIST</button>
+                </div>
+            </a>
+            <a href="https://www.google.com/search?sca_esv=b8d6872986dba9cf&rlz=1C1GCFM_enIN1090IN1090&biw=1366&bih=641&sxsrf=ACQVn08LAD83NiqARl-mzKnyu4mNkciuvA:1710496020352&q=St+ann%27s+College+Chirala+address&uds=AMwkrPu8b-t62wXG3jtdzFmRMOSCt3Tk1MuqWbS2s2raLpXYTav1xkiivkAIXUgF1eTpFwauqfK3A095ZbpsHJCJgWfMiBwlnK7eHK-b6OQO31J8GcaxSNpwnsrf9cy4Cs_QUsQz1wmlDnJh3_rmofbLMh8n27BDUw&sa=X&ved=2ahUKEwid67qd_vWEAxWZnq8BHXUdDMYQxKsJegUIgAEQAQ&ictx=0">
+                <div class="b6">
+                    <button class="mybutton">ADDRESS</button>
+                </div> 
+            </a>
+            <a href="https://www.google.com/search?sca_esv=b8d6872986dba9cf&rlz=1C1GCFM_enIN1090IN1090&sxsrf=ACQVn08LAD83NiqARl-mzKnyu4mNkciuvA:1710496020352&q=St+ann%27s+college+chirala+contact+number&uds=AMwkrPvcUJhjTCJwG3g1IOSST5cN_mK9QL3L_jazZaX4gL8fAEaLF1cucuiZESXpN5mgBoV4PIYxCnaBUdVql6PnnrynJqDUc4FIF-bC4z_q0GmOR2D3aWJeuhW5ibS2t61GDjVM5b6EmH5BdBpiRsKJ_FX74sH0SQ&sa=X&ved=2ahUKEwid67qd_vWEAxWZnq8BHXUdDMYQxKsJegQIfhAB&ictx=0&biw=1366&bih=641&dpr=1">
+                <div class="b7">
+                    <button class="mybutton">CONTACT NUMBER</button>
+                </div>
+            </a>
+        </div>
+        <div class="sh1">SACET STRUCTURE:</div>
+        <p >
+            College Intro: St. Ann's College of Engineering & Technology (SACET) was established in 2001 in Chirala, Andhra Pradesh, India. It is a private institution that is affiliated with Jawaharlal Nehru Technological University, Kakinada. The college is known for its commitment to providing quality technical education to its students. It offers undergraduate and postgraduate programs in various engineering disciplines. Highlights: The college is known for its excellent infrastructure, experienced faculty, and placement record. It is also recognized by the All India Council for Technical Education (AICTE). Academics Courses: The college offers B.Tech in Civil Engineering, Computer Science and Engineering, Electrical and Electronics Engineering, Electronics and Communication Engineering, and Mechanical Engineering. It also offers M.Tech in various specializations. Duration and mode of each course: All courses are full-time. B.Tech is a 4-year program and M.Tech is a 2-year program. Admission Process: Eligibility criteria: For B.Tech, candidates must have passed 10+2 with Physics, Chemistry, and Mathematics. For M.Tech, candidates must have a B.Tech degree in the relevant field. Application process and deadlines: Applications are accepted online through the official website. </p>
+        <a href="https://collegedunia.com/college/15307-st-anns-college-of-engineering-and-technology-sacet-prakasam">
+           <div class="sb1">
+            <button class="mb">SACET STRUCTURE</button>
+           </div>
+        </a>
+        <sub>:-Information about the STRUCTURE OF SACET...</sub>
+        <br>
+        <div class="sh2">SACET ACHEIVEMENTS:</div>
+        <P >St. Ann’s have signed MoU’s with various MNC’s like Infosys, IBM, Wipro etc. St. Ann’s are conducting various Academic Initiative Programmes with Infosys Campus Connect, Wipro mission 10X, IBM Center for Excellence and The Great Mind Challenge. Regular interaction with other institutions & industries is done to update the database on employment opportunities in national multinational companies like Infosys, IBM, Wipro, TCS, Cognizant, Mahindra-Satyam, ICICI, Reliance, Oracle etc. The Cell has built up good industry – institute interface.</P>
+        <pre >
+<u><b>AWARDS</b></u>:-
+1: CEGR
+2: MOST EMERGING AND PURSUING ENGINEERING COLLEGE OF THE YEAR-2021
+3: ABSOLUTE PERFORMANCE IN VIRTUAL KNOWLEDGE DEVELOPMENT DURING PANDEMIC-2021</pre>
+        <a href="https://sacet.ac.in/">
+            <div class="sb2">
+                <button class="mb">SACET ACHEIVEMENTS</button>
+            </div>
+        </a>
+        <sub>:-Information about the SACET ACHEIVEMENTS...</sub>
+        <br>
+        <div class="sh3">STUDENT FORM:</div>
+        <p>
+           Student form is the website for the students to get complete infromation about the institute and placements. Student form is helpful to get the details about their courses,syllabus and internships.Student form is helpful for the students to complaint against ragging to the higher authorities and it has RTI which is used to get idea on students rights.
+        </p>
+        <a href="https://sacet.ac.in/students/">
+            <div class="sb3">
+                <button class="mb">STUDENT FORM</button>
+            </div>
+        </a>
+        <sub>:-Information about the STUDENT FORM...</sub>
+        <div class="sh4">SACET PLACEMENTS:</div>
+        <pre>
+<u><b>OUR TRAINING PARTNERS</b></u>:-                      <u><b>TRAINING COURSES(IN HOUSE & TRAINING PARTNERS)</b></u>:-                                                     
+1:SMART Training Resources Pvt Ltd          1: Reasoning & Quantitative Aptitude                                                               
+2:Talentio India Pvt Ltd                    2: Essential English and Employability Skills                                                               
+3:SixPhrase                                 3: Soft skills and Personality Development                                                               
+4:FACE Academy                              4: Technical Skills Like C, Python, Data Structures, Java etc.                                                            
+5:MY AUTOMONY                               5: Group Discussion, Mock Interviews and Mock Online Test Assessments
+        </pre>
+        <a href="https://sacet.ac.in/tpo-cell/" >
+            <div class="sb4">
+                <button class="mb">SACET PLACEMENTS</button>
+            </div>
+        </a>
+        <sub>:-Information about the PLACEMENTS in SACET...</sub>
+        <br>
+        <div class="sh5">COMPUTER SCIENCE AND ENGINEERING:</div>
+        <p>
+            From a modest beginning in 2001, the Computer Science Department in St. Ann’s College of Engineering & Technology (SACET), Chirala has now grown into a fully integrated department in the field of Engineering and Technology. It is an “education with future”. Learning how to inquire, converse and collaborate, the skill that never go out of date. The objectives of imparting education, combined with creation, dissemination and application of knowledge are being met in an integrated form to create a synergetic impact.
+        </p>
+        <a href="https://sacet.ac.in/computer-science-engineering/">
+            <div class="sb5">
+                <button class="mb">COMPUTER SCIENCE AND ENGINEERING</button>
+            </div>
+        </a>
+        <sub>:-Information about the COMPUTER SCIENCE AND ENGINEERING...</sub>
+        <br>
+        <div class="sh6">SACET LOGIN:</div>
+        <p>
+            Sudent login page is the website provided by the SACET.It allows the users for check the details of students and faculty.It is mainly used for the updating and checking the semester marks and for attempting the online exam.It takes the username as student or faculty ID number and date of birth as the password.
+        </p>
+        <a href="https://sacetchirala.com/">
+            <div class="sb6">
+                <button class="mb">SACET LOGIN</button>
+            </div>
+        </a>
+        <sub>:-Informationabout the SACET LOGIN...</sub>
+        <br>
+        <div class="sh7">ATTENDENCE REPORT:</div>
+        <p >
+            Attendence report pages is the website provided by the SACET.it allows the users to check or update the attendence report, student bio-data,previous semester marks and details.It allows the students to only check their details by providing their Ids and passwords.It allows the Faculty to update the students attendence report and semester marks.
+        </p>
+        <a href="http://50.50.50.99/ecap/">
+            <div class="sb7">
+                <button class="mb">ATTENDENCE REPORT</button>
+            </div>
+        </a>
+        <sub>:-Informationabout the STUDENT ATTENDENCE REPORT AND DETAILS...</sub>
+        <br>
+        <marquee  direction="left" scrollamount="15" >
+            *** THE END. ***
+        </marquee>
+        <br>
+        <br>
+        <footer>THANK YOU.</footer>
+    </body>
+</html>
