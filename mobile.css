@@ -49,7 +49,7 @@ header
    background-color: green;
    margin: 0.1cm;
    text-align:center;
-   font-size: 0.2cm;font-weight: bold;
+   font-size: 0.1cm;font-weight: bold;
    border-style:solid;border-radius: 0.1cm;
    max-width: fit-content;
    padding-left: 0.1cm;padding-right: 0.1cm;padding-top: 0.05cm;padding-bottom: 0.05cm;
@@ -57,7 +57,7 @@ header
  .b1,.b2,.b3,.b4,.b5,.b6,.b7
  {
    color:black;
-   font-size: 0.2cm;
+   font-size: 0.1cm;
  }
  button:hover
  {
@@ -103,7 +103,7 @@ b
 }
 sub
 {
-   margin-left: 3.5cm;
+   margin-left: 2cm;
    font-size: xx-small;
    color:darkblue;
 }
@@ -116,5 +116,5 @@ sub
  pre
 {
     color:black;  padding-left: 0.8cm; padding-right: 0.8cm;
-    font-size: 0.15cm;
+    font-size: 0.1cm;
 }
