@@ -41,16 +41,16 @@ header
    color:black;
    margin: 0.1cm;
    text-align:center;
-   font-size: 0.2cm;font-weight: bold;
+   font-size: 0.1cm;font-weight: bold;
    border-style:solid;border-radius: 0.3cm;
    max-width: fit-content;
    background-color: whitesmoke;
-   padding-left: 0.5cm;padding-right: 0.5cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
+   padding-left: 0.05cm;padding-right: 0.05cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
  }
  .b1,.b2,.b3,.b4,.b5,.b6,.b7
  {
    color:black;
-   font-size: 0.2cm;
+   font-size: 0.1cm;
 
  }
  button:hover
