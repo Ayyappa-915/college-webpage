@@ -1,7 +1,7 @@
 header
 {
     text-align:center;
-    color:white;
+    color:black;
     font-size: 1.4cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style: double;border-width: 0.5cm;border-top: 0cm; border-left: 0cm; border-right: 0cm; 
  }
@@ -15,7 +15,7 @@ header
  footer
 {
     text-align: center;
-    color: whitesmoke;
+    color: black;
     font-size: 1.4cm;font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style: double;border-width: 0.5cm;border-bottom: 0cm; border-left: 0cm; border-right: 0cm;
  }
@@ -29,10 +29,11 @@ header
  {
   max-width: 100%;
   height: auto;
+  margin-left: 0.5cm;
  }
  body
  {
-    background-color: chocolate;
+    background-color: white;
     border-style:solid;border-width: 0.3cm;margin-top: 0.5cm;margin-bottom: 0.5cm;margin-left: 0.5cm;margin-right: 0.5cm;
  }
  .b1,.b2,.b3,.b4,.b5,.b6,.b7
@@ -94,12 +95,14 @@ sub
  p
  {
     font-size: larger;
-    color: white;  
+    color: black;  
     margin-left: 1cm;margin-right: 1cm;
  }
  pre
 {
-    color: white; 
+    color: black; 
     padding-left: 0.8cm; padding-right: 0.8cm;
     font-size: larger;
+    font-style: italic;
+    font-weight: bold;
 }
