@@ -87,7 +87,7 @@ header
 .mb 
 {
    font-size: 0.2cm;font-weight: bold;
-   padding-right: 0.3cm; padding-left: 0.3cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
+   padding-right: 0.15cm; padding-left: 0.15cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
    border-style: solid;
    border-radius: 0.2cm;
 }
@@ -98,7 +98,7 @@ b
 sub
 {
    margin-left: 2cm;
-   font-size: 0.15cm;
+   font-size: 0.2cm;
 }
  p
  {
