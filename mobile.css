@@ -58,7 +58,7 @@ header
  .b1,.b2,.b3,.b4,.b5,.b6,.b7
  {
    color:black;
-   font-size: 0.1cm;
+   font-size: 0.12cm;
  }
  button:hover
  {
@@ -95,7 +95,7 @@ header
    border-style: solid;
    border-radius: 0.2cm;
    color: white;
-    margin-left: 2cm;
+    margin-left: 1.5cm;
    background-color: green;
 }
 b
