@@ -41,16 +41,16 @@ header
    color:black;
    margin: 0.1cm;
    text-align:center;
-   font-size: 0.1cm;font-weight: bold;
-   border-style:solid;border-radius: 0.3cm;
+   font-size: 0.13cm;font-weight: bold;
+   border-style:solid;border-radius: 0.1cm;
    max-width: fit-content;
    background-color: whitesmoke;
-   padding-left: 0.05cm;padding-right: 0.05cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
+   padding-left: 0.05cm;padding-right: 0.05cm;padding-top: 0.6cm;padding-bottom: 0.6cm;
  }
  .b1,.b2,.b3,.b4,.b5,.b6,.b7
  {
    color:black;
-   font-size: 0.1cm;
+   font-size: 0.13cm;
 
  }
  button:hover
@@ -76,7 +76,8 @@ header
 }
 .sb1,.sb2,.sb3,.sb4,.sb5,.sb6,.sb7
 {
-   margin-left: 2cm;
+   margin-left: 1cm;
+
 }
 .mb 
 {
@@ -91,7 +92,7 @@ b
 }
 sub
 {
-   margin-left: 3.5cm;
+   margin-left: 2cm;
    font-size: xx-small;
 }
  p
