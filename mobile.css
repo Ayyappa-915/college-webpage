@@ -50,9 +50,9 @@ header
    margin: 0.1cm;
    text-align:center;
    font-size: 0.2cm;font-weight: bold;
-   border-style:solid;border-radius: 0.3cm;
+   border-style:solid;border-radius: 0.1cm;
    max-width: fit-content;
-   padding-left: 0.5cm;padding-right: 0.5cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
+   padding-left: 0.15cm;padding-right: 0.15cm;padding-top: 0.1cm;padding-bottom: 0.1cm;
  }
  .b1,.b2,.b3,.b4,.b5,.b6,.b7
  {
@@ -116,5 +116,5 @@ sub
  pre
 {
     color:black;  padding-left: 0.8cm; padding-right: 0.8cm;
-    font-size: 0.05cm;
+    font-size: 0.1cm;
 }
