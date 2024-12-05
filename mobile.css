@@ -72,7 +72,7 @@ header
     margin: 0.2cm;
     font-size: 0.3cm;
  }
-.sh1,.sh2,.sh3,.sh4,.sh5,.sh6,.sh7
+.sh1,.sh2,.sh3,.sh4,.sh5,.sh6,.sh7,.sh8
 {   
    font-weight: bolder;
    font-size: 0.2cm;
@@ -81,7 +81,7 @@ header
    max-width: fit-content;
    border-top: 0cm;border-left: 0cm;border-right: 0cm;border-style: double;
 }
-.sb1,.sb2,.sb3,.sb4,.sb5,.sb6,.sb7
+.sb1,.sb2,.sb3,.sb4,.sb5,.sb6,.sb7,.sb8
 {
    padding-left: 0.2cm;
    padding-right: 0.2cm;
